@@ -145,8 +145,23 @@
 			opacity: 1;
 		}
 	}
-	.Leo{ color: rgba(2, 1, 2, 0.47);}
-	.LeoM{ color: rgba(0, 153, 255, 0.47);}
+	.Leo1{
+		 color: rgba(255, 255, 255, 0.993);
+		 
+	}
+	.Leo2 {
+		color: rgba(255, 255, 255, 0.993) ;
+		
+	}
+
+	.Leo2 a:hover{
+		color: rgba(0, 153, 255, 0.988);
+		transition: 0.25s;
+		
+	}
+
+
+	.LeoM{ color: rgba(0, 153, 255, 0.988);}
 	@keyframes wrapper {
 		0% {
 			opacity: 0;
@@ -187,7 +202,7 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #939fa4bf url("images/bg.jpg") bottom left;
+		background: #939fa4bf bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
@@ -324,7 +339,7 @@
 		top: 0;
 		width: 100%;
 	}
-
+	
 /* Main */
 
 	#main {
